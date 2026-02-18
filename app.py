@@ -12,9 +12,9 @@ app = Flask(__name__)
 detector = FER()
 
 # Spotify API Authentication
-SPOTIPY_CLIENT_ID = "79d2dcdcae934bdfb9943f92ece5cf7b"
-SPOTIPY_CLIENT_SECRET = "6495ecde874b442e8abf6456d8686e5c"
-SPOTIPY_REDIRECT_URI = "http://localhost:8888/callback"
+SPOTIPY_CLIENT_ID = "b47b75b2b2264d84a2af0682e9a305d4"
+SPOTIPY_CLIENT_SECRET = "76b6a69f0dc646b3a9017d02bd7f6d38"
+SPOTIPY_REDIRECT_URI = "http://127.0.0.1:8888/callback"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=SPOTIPY_CLIENT_ID,
                                                client_secret=SPOTIPY_CLIENT_SECRET,
